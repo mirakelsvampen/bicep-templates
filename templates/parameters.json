@@ -1,0 +1,33 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "adminPassword": {
+            "value": "35V5qYvq4fex9j&R3VkM"
+        },
+        "adminUsername": {
+            "value": "epirocadmin"
+        },
+        "sku": {
+            "value": "20.04-LTS"
+        },
+        "vmSize": {
+            "value": "Standard_DS2_v2"
+        },
+        "vmName": {
+            "value": "adoagent-vm-weeu-dev-001"
+        },
+        "pubKeys": {
+            "value": "weeu"
+        },
+        "subnetName": {
+            "value": "weeu"
+        },
+        "vnetId": {
+            "value": "weeu"
+        },
+        "keyvaultName": {
+            "value": "weeu"
+        }
+    }
+}
